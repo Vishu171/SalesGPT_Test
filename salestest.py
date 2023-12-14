@@ -52,10 +52,7 @@ if authenticate_user():
 
     AI assisted solution to extract information from your company's annual reports from 2019 to 2022. Post your queries in the textbox at bottom of this page.
           
-    **Few sample queries for reference are:**
-  
-    - What are the operating expenses of the Guidewire for last 2 years?
-    - What are the risks Guidewire is facing?
+
     
     """)
     
