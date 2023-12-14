@@ -8,7 +8,7 @@ from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
 import pinecone
 
-LETTER_TEMPLATE = """ You are tasked with retrieving questions regarding K-10 annual report by Guidewire with ticker name GWRE. Guidewire and GWRE must be used interchangeably by the user in question.
+LETTER_TEMPLATE = """ You are tasked with retrieving questions regarding generic knowledge documents.
 
 Provide an answer based on this retreival, and if you can't find anything relevant, just say "I'm sorry, I couldn't find that."
 
